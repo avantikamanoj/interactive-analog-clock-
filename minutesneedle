@@ -14,7 +14,7 @@ Item {
         id: minutesHandle
         width: 4
         height: id_root.height * 0.32
-        color: "#6872A6"
+        color: "#0000cd"
         anchors {
             horizontalCenter: id_root.horizontalCenter
             bottom: id_root.verticalCenter
@@ -53,3 +53,5 @@ Item {
     rotation: 360/granularity * (value % granularity)
     antialiasing: true
 }
+
+           
