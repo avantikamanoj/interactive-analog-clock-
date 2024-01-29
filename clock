@@ -3,7 +3,7 @@ import QtQuick 2.0
 Item {
     id: id_root
 
-    property color bodyColor: "#F0FFF0"
+    property color bodyColor: "#fdf5e6"
 
     property int hours: currentDate.getHours()
     property int minutes: currentDate.getMinutes()
@@ -27,7 +27,7 @@ Item {
         width: height
         radius: width/2
         color: id_root.bodyColor
-        border.color: "#C71585"
+        border.color: "#c71585"
         border.width: 22
 
         Repeater {
