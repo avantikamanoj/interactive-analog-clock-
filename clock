@@ -3,7 +3,7 @@ import QtQuick 2.0
 Item {
     id: id_root
 
-    property color bodyColor: "#EFEFF0"
+    property color bodyColor: "#F0FFF0"
 
     property int hours: currentDate.getHours()
     property int minutes: currentDate.getMinutes()
@@ -27,7 +27,7 @@ Item {
         width: height
         radius: width/2
         color: id_root.bodyColor
-        border.color: "#34407D"
+        border.color: "#C71585"
         border.width: 22
 
         Repeater {
@@ -47,7 +47,7 @@ Item {
                     height: id_plate.height*0.1
                     width: height/4
                     radius: width/4
-                    color: "#34407D"
+                    color: "#48d1cc"
                     anchors.horizontalCenter: parent.horizontalCenter
                     anchors.top: parent.top
                     anchors.topMargin: 2
@@ -95,7 +95,7 @@ Item {
                     height: id_plate.height*0.04
                     width: height/12
                     radius: width*2
-                    color: "#34407D"
+                    color: "#000080"
                     anchors.top: parent.top
                     anchors.topMargin: 20
                 }
