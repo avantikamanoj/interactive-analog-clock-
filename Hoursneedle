@@ -15,7 +15,7 @@ Item {
         id: hoursHandle
         width: 6
         height: id_root.height * 0.24
-        color: "#6872A5"
+        color: "#0000cd"
         anchors {
             horizontalCenter: id_root.horizontalCenter
             bottom: id_root.verticalCenter
@@ -53,4 +53,10 @@ Item {
     antialiasing: true
 
 }
+
+
+
+              
+
+
 
